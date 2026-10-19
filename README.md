@@ -1,19 +1,13 @@
-# Homebrew Tap for lean-ctx
+# This tap has moved
 
-Homebrew formula for [lean-ctx](https://leanctx.com) — Hybrid Context Optimizer with Token Dense Dialect (TDD).
-
-## Installation
+The `yvgude/tap` formula is no longer updated and stays at lean-ctx 2.4.0.
+lean-ctx is now published through **[yvgude/homebrew-lean-ctx](https://github.com/yvgude/homebrew-lean-ctx)**:
 
 ```bash
-brew tap yvgude/tap
+brew untap yvgude/tap
+brew tap yvgude/lean-ctx
 brew install lean-ctx
 ```
 
-## What is lean-ctx?
-
-lean-ctx reduces LLM token consumption by 89-99% through 50+ compression patterns, a transparent Shell Hook, 8 MCP tools, and Token Dense Dialect (TDD).
-
-- **Website**: [leanctx.com](https://leanctx.com)
-- **GitHub**: [github.com/yvgude/lean-ctx](https://github.com/yvgude/lean-ctx)
-- **crates.io**: [crates.io/crates/lean-ctx](https://crates.io/crates/lean-ctx)
-- **Discord**: [discord.gg/pTHkG9Hew9](https://discord.gg/pTHkG9Hew9)
+- Website: [leanctx.com](https://leanctx.com)
+- Source: [github.com/yvgude/lean-ctx](https://github.com/yvgude/lean-ctx)
